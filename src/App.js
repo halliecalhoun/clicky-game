@@ -71,7 +71,7 @@ class App extends Component {
         <h4>Keep clicking the cards below until you have clicked them all, but make sure to not click the same card twice!</h4>
       </Hero>
       <Wrapper>
-        <Title>Clicky Game</Title>
+        <Title>Score Board</Title>
         <h4 className="scoreBoard">
           {this.state.clickMessage}
         </h4>
