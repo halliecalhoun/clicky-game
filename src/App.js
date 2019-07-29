@@ -3,6 +3,7 @@ import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import matches from "./matches.json";
+import "./App.css";
 
 let correctGuesses = 0;
 let bestScore = 0;
