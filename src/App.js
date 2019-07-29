@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
+import Hero from "./components/Hero";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import matches from "./matches.json";
@@ -64,6 +65,11 @@ class App extends Component {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
+      <div>
+      <Hero backgroundImage="https://images.pexels.com/photos/1842623/pexels-photo-1842623.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
+        <h1>Clicky Game</h1>
+        <h4>Keep clicking the cards below until you have clicked them all, but make sure to not click the same card twice!</h4>
+      </Hero>
       <Wrapper>
         <Title>Clicky Game</Title>
         <h4 className="scoreBoard">
@@ -87,6 +93,7 @@ class App extends Component {
           </div>
         </div>
         </Wrapper>
+        </div>
     );
   }
 }
